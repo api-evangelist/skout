@@ -1,7 +1,14 @@
 aid: skout
 name: Skout
-description: Skout is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Skout is a location-based social discovery and dating mobile app that lets
+  people meet, chat, and make connections with others nearby or worldwide.
+  Operated by the ParshipMeet Group, Skout is distributed as consumer iOS and
+  Android applications and an in-browser experience, and was an early a16z
+  portfolio company. It is a consumer product with no public developer program,
+  API documentation, SDKs, or API surface; this profile captures its public
+  identity and published legal/support pages. Added to the API Evangelist network
+  as a stub for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/skout/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +16,52 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Social
+- Dating
+- Consumer App
+- Mobile
+- Messaging
+- Social Networking
+image: https://www.skout.com/favicon.png
 apis: []
+common:
+- type: Website
+  url: https://www.skout.com/en/
+- type: SignUp
+  url: https://app.skout.com/get-started?lang=en
+- type: Support
+  url: https://support.skout.com/hc/en-us
+- type: PrivacyPolicy
+  url: https://www.skout.com/en/privacypolicy/
+- type: TermsOfService
+  url: https://www.skout.com/en/termsandconditions/
+- type: About
+  url: https://www.skout.com/en/aboutus/
+- type: Press
+  url: https://www.skout.com/en/press/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
